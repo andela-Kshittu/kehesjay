@@ -88,9 +88,19 @@ a{
 	-webkit-flex-direction:row;
 	-webkit-justify-content: space-between;
 	-webkit-flex-wrap:wrap;
+	display:-moz-flex;
+	-moz-flex-direction:row;
+	-moz-justify-content: space-between;
+	-moz-flex-wrap:wrap;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	flex-wrap:wrap;
 }
 .navlinks li{
 	-webkit-flex-grow:2;
+	-moz-flex-grow:2;
+	flex-grow:2;
 	list-style: none;
 }
 .navlinks li button{
