@@ -34,7 +34,7 @@ a {
     /*min-height: 100%;*/
 }
 #shade2 {
-    background: rgba(0, 0, 0, .2);
+    background: rgba(0, 0, 0, .9);
     /*min-height: 100%;*/
 }
 /*HEADER TEXT DESIGN*/
@@ -83,12 +83,6 @@ a {
     width: 100%;
 }
 #quote {
-    /*	position: absolute;*/
-    /*top: 240px;
-	left: 440px;*/
-    /*font-size: 2em;*/
-    /*	width: 75%;*/
-    
     margin-top: 6em;
     min-height: 410px;
     text-align: center;
@@ -96,20 +90,19 @@ a {
 #quote h1 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     font-family: 'Josefin Slab', serif;
-    ;
     font-size: 5em;
     font-weight: 700;
     line-height: normal;
     color: black;
 }
 #quote p {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    text-transform: lowercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+    /*text-transform: lowercase;*/
     font-size: 1.15em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     letter-spacing: 2px;
-    color: black;
+    color: white;
 }
 .textWrap {
     float: right;
@@ -296,6 +289,7 @@ a {
     height: 15em;
     margin: 0;
 }
+
 #gallery {
     list-style: none;
     margin: 0 auto;
@@ -314,6 +308,7 @@ a {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 #gallery li {
     -webkit-flex-grow: 2;
     -moz-flex-grow: 2;
@@ -321,16 +316,18 @@ a {
     display: inline;
     height: 200px;
     max-width: 30%;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
     border: 2px solid white;
     border-radius: 5px;
     background: lightblue;
     box-shadow: 0px 0px 20px #888888;
 }
+
 #gallery a {
     color: black;
     text-decoration: none;
 }
+
 .profile-photo {
     display: block;
     height: 250px;
@@ -338,20 +335,29 @@ a {
     border-radius: 50%;
     margin: 0 auto;
 }
+
 .about {
     list-style: none;
 }
+
 .about li {
     display: inline-block;
     text-align: center;
     width: 60%;
     padding: 1em;
+    background: black;
+    border-radius: 20px; 
 }
+.about li h1{
+    color: white !important;
+}
+
 .about li p {
     display: inline;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5em;
 }
+
 .about li p a {
     color: blue;
     text-decoration: none;
